@@ -30,6 +30,8 @@ Located here on Windows:
 
 As of `2024-11-20`, Asset Icon Library does not support files in subfolders, so extract all the images into that CustomThumbnails folder.
 
+**You will need to have AIL set to replace default icons**. If you're like me and prefer the default zone icons and other stuff, you can copy those thumbnails from CS:II's game files into the CustomThumbnails folder too.
+
 ## Support for Region Packs
 Currently, this has icons for the German and French packs, the first two to be released. I have [flags](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags) ready to go for [the other content packs](https://www.paradoxinteractive.com/games/cities-skylines-ii/modding/cities-skylines-ii-region-packs) once they're released as well.  
 I'm intending to use New England for the US Northeast Pack, Arizona or Califoria for US Southwest, and Poland or Ukraine for Eastern Europe, but I'll wait and see where the buildings pull their inspiration from.
