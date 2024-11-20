@@ -15,7 +15,7 @@ Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
 The Asset Pack icons are baked on - so they're pasted over the top here. The Theme Icons are replaced with an svg of that country's flag, simplfied if needed, shown above.
 
-![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) 
+![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Mixed.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) ![FR Office](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Office%20High.png) 
 
 ## Use
 To use these icons, you must install **Asset Icon Library** from [Paradox Mods](https://mods.paradoxplaza.com/mods/79634/Windows).
