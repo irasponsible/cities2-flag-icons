@@ -1,8 +1,6 @@
 # Cities Skylines 2 - Flag Icons
 Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
-
-
 ### Included
 ![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg)
 
@@ -20,13 +18,20 @@ The Asset Pack icons are baked on - so they're pasted over the top here. The The
 ## Use
 To use these icons, you must install **Asset Icon Library** from [Paradox Mods](https://mods.paradoxplaza.com/mods/79634/Windows).
 
-Then, add the files you want to the CustomThumbnails folder;  
-`...\AppData\LocalLow\Colossal Order\Cities Skylines II\ModsData\AssetIconLibrary\CustomThumbnails`
+Download and extract the zip file from [the releases page](https://github.com/irasponsible/cities2-flag-icons/releases). Then, add the files you want to the CustomThumbnails folder. 
 
-As of `2024-11-20`, Asset Icon Library does not support files in subfilders, so you have to dump them all out into the CustomThumbnails folder.
+Located here on Linux:  
+
+    .../steam/steamapps/compatdata/949230/pfx/drive_c/users/steamuser/AppData/LocalLow/Colossal Order/Cities Skylines II/ModsData/AssetIconLibrary/CustomThumbnails/
+
+Located here on Windows:  
+
+    ...\AppData\LocalLow\Colossal Order\Cities Skylines II\ModsData\AssetIconLibrary\CustomThumbnails
+
+As of `2024-11-20`, Asset Icon Library does not support files in subfolders, so extract all the images into that CustomThumbnails folder.
 
 ## Support for Region Packs
-Currently, this has icons for the German and French packs, the first two to be released. I have flags ready to go for [the other content packs](https://www.paradoxinteractive.com/games/cities-skylines-ii/modding/cities-skylines-ii-region-packs) once they're released as well.  
+Currently, this has icons for the German and French packs, the first two to be released. I have [flags](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags) ready to go for [the other content packs](https://www.paradoxinteractive.com/games/cities-skylines-ii/modding/cities-skylines-ii-region-packs) once they're released as well.  
 I'm intending to use New England for the US Northeast Pack, Arizona or Califoria for US Southwest, and Poland or Ukraine for Eastern Europe, but I'll wait and see where the buildings pull their inspiration from.
 
 ## Questions
