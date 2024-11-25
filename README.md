@@ -2,10 +2,10 @@
 Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
 ### Included
-![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg)
+![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg) ![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/UK%20Pack%20Filter.svg) 
 
 ### Pending  
-![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/UK%20Pack%20Filter.svg) ![Japan](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Japan.svg) ![Ukraine](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Ukraine.svg)
+![Japan](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Japan.svg) ![Ukraine](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Ukraine.svg)
  ![New England](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/New%20England.svg) ![California](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/SanFranciscoSet.svg)
 ![China](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/China.svg)
 
@@ -45,6 +45,9 @@ I tried, but for some reason it just wouldn't work. Ah well - it means I've got 
 
 **Why is all of North America represented with just the US Flag?**  
 You're welcome to make a Canadian option.
+
+**Why is the UK flag missing Northern Ireland?**  
+The Union Jack just looks wonky when squished to a square.
 
 **Will you add x?**  
 I'll add all the PDX region packs and then after that, *shrug*. Dunno.
