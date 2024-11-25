@@ -5,7 +5,7 @@ Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 ![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg)
 
 ### Pending  
-![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/United%20Kingdom.svg) ![Japan](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Japan.svg) ![Ukraine](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Ukraine.svg)
+![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/UK%20Pack%20Filter.svg) ![Japan](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Japan.svg) ![Ukraine](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Ukraine.svg)
  ![New England](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/New%20England.svg) ![California](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/SanFranciscoSet.svg)
 ![China](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/China.svg)
 
@@ -13,7 +13,7 @@ Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
 The Asset Pack icons are baked on - so they're pasted over the top here. The Theme Icons are replaced with an svg of that country's flag, simplfied if needed, shown above.
 
-![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Mixed.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) ![FR Office](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Office%20High.png) 
+![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Mixed.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) ![FR Office](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Office%20High.png) ![UK Detatched](https://github.com/irasponsible/cities2-flag-icons/blob/main/uk_thumbnails/UK%20Residential%20Low.png) 
 
 ## Use
 To use these icons, you must install **Asset Icon Library** from [Paradox Mods](https://mods.paradoxplaza.com/mods/79634/Windows).
