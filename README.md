@@ -2,7 +2,7 @@
 Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
 ### Included
-![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg) ![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/UK%20Pack%20Filter.svg) 
+![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg) ![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/UK%20Pack%20Filter.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) 
 
 ### Pending  
 ![Japan](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Japan.svg) ![Ukraine](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Ukraine.svg)
