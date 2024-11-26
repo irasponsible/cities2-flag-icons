@@ -1,5 +1,5 @@
 # Cities Skylines 2 - Flag Icons
-Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
+Use Flags instead of "DE", "FR", etc., for icons and thumbnails with CS2 region packs.
 
 ### Included
 ![France](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/France.svg) ![Germany](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/Germany.svg) ![UK](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/UK%20Pack%20Filter.svg) ![North America](https://github.com/irasponsible/cities2-flag-icons/blob/main/flags/North%20American.svg) 
@@ -11,7 +11,7 @@ Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
 ## About
 
-The Asset Pack icons are baked on - so they're pasted over the top here. The Theme Icons are replaced with an svg of that country's flag, simplfied if needed, shown above.
+The Asset Pack icons are baked on - so they're pasted over the top here. The Theme Icons are replaced with an svg of that country's flag, which have been simplified where needed.
 
 ![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Mixed.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) ![FR Office](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Office%20High.png) ![UK Detatched](https://github.com/irasponsible/cities2-flag-icons/blob/main/uk_thumbnails/UK%20Residential%20Low.png) ![UK Flats](https://github.com/irasponsible/cities2-flag-icons/blob/main/uk_thumbnails/UK%20Residential%20Medium%20Flats.png?raw=true)
 
@@ -44,10 +44,10 @@ I'd love to - but I don't have a copy of the the thumbnails without the stamp al
 I tried, but for some reason it just wouldn't work. Ah well - it means I've got the California flag ready to go if it's a good fit for the US Southwest pack.
 
 **Why is all of North America represented with just the US Flag?**  
-You're welcome to make a Canadian option.
+You're welcome to make a Canadian option, but a "US/CA" mash up would just be illegible at this size.
 
 **Why is the UK flag missing Northern Ireland?**  
-The Union Jack just looks wonky when squished to a square.
+The Union Jack just looks wonky when squished to a square. Either the edges don't line up, or the proportions look way off. I looked around to see how other people had done a 1:1 Union Jack, and they all looked just as bad.
 
 **Will you add x?**  
-I'll add all the PDX region packs and then after that, *shrug*. Dunno.
+I'll add all the official region packs and then after that, *shrug*. Dunno.
