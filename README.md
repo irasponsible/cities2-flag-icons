@@ -40,6 +40,9 @@ I'm intending to use New England for the US Northeast Pack, Arizona or Califoria
 **Why isn't this on PDX Mods?**
 - Modding Toolchain is a lost cause on Linux, so I can't use it
 - I don't know C#
+- There's no way to put this on PDX mods without those two.
+
+If someone wants to package these into a mod, I'd be happy to work with someone - just can't do it myself at the moment.
 
 **Can you move the flag to the left to match the vanilla Region icons?**  
 I'd love to - but I don't have a copy of the the thumbnails without the stamp already on them. If you want to go through and cleanly remove the country-digraph stamp from every thumbnail, let me know.
