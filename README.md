@@ -13,7 +13,7 @@ Use Flags instead of "DE", "FR", etc., for icons and thumbnails in CS2.
 
 The Asset Pack icons are baked on - so they're pasted over the top here. The Theme Icons are replaced with an svg of that country's flag, simplfied if needed, shown above.
 
-![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Mixed.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) ![FR Office](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Office%20High.png) ![UK Detatched](https://github.com/irasponsible/cities2-flag-icons/blob/main/uk_thumbnails/UK%20Residential%20Low.png) 
+![DE Residential Medium](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Medium.png) ![DE Residential Mixed](https://github.com/irasponsible/cities2-flag-icons/blob/main/de_thumbnails/DE%20Residential%20Mixed.png) ![FR Low Rent](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Residential%20LowRent.png) ![FR Office](https://github.com/irasponsible/cities2-flag-icons/blob/main/fr_thumbnails/FR%20Office%20High.png) ![UK Detatched](https://github.com/irasponsible/cities2-flag-icons/blob/main/uk_thumbnails/UK%20Residential%20Low.png) ![UK Flats](https://github.com/irasponsible/cities2-flag-icons/blob/main/uk_thumbnails/UK%20Residential%20Medium%20Flats.png?raw=true)
 
 ## Use
 To use these icons, you must install **Asset Icon Library** from [Paradox Mods](https://mods.paradoxplaza.com/mods/79634/Windows).
@@ -28,7 +28,7 @@ Located here on Windows:
 
     ...\AppData\LocalLow\Colossal Order\Cities Skylines II\ModsData\AssetIconLibrary\CustomThumbnails
 
-As of `2024-11-20`, Asset Icon Library does not support files in subfolders, so extract all the images into that CustomThumbnails folder.
+As of `2024-11-20`, Asset Icon Library does not support files in subfolders, so move all the images into the CustomThumbnails folder, don't leave them in the sub-folders.
 
 **You will need to have AIL set to replace default icons**. If you're like me and prefer the default zone icons and other stuff, you can copy those thumbnails from CS:II's game files into the CustomThumbnails folder too.
 
