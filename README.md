@@ -37,6 +37,10 @@ Currently, this has icons for the German and French packs, the first two to be r
 I'm intending to use New England for the US Northeast Pack, Arizona or Califoria for US Southwest, and Poland or Ukraine for Eastern Europe, but I'll wait and see where the buildings pull their inspiration from.
 
 ## Questions
+**Why isn't this on PDX Mods?**
+- Modding Toolchain is a lost cause on Linux, so I can't use it
+- I don't know C#
+
 **Can you move the flag to the left to match the vanilla Region icons?**  
 I'd love to - but I don't have a copy of the the thumbnails without the stamp already on them. If you want to go through and cleanly remove the country-digraph stamp from every thumbnail, let me know.
 
