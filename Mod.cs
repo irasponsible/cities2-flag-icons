@@ -57,28 +57,39 @@ namespace RegionFlagIcons
                 return;
             }
 
+            /*if (!Directory.Exists(Path.Combine(targetDirectory, di.Name)))
+            {
+                Directory.CreateDirectory(Path.Combine(targetDirectory, di.Name));
+            }*/
             foreach (FileInfo fi in di.GetFiles())
             {
                 // Check if files are equal, if not, overwrite
-                bool overwrite = false;
-                if (File.Exists(Path.Combine(targetDirectory, fi.Name)))
+                var path = Path.Combine(targetDirectory, fi.Name);
+                //var path = Path.Combine(targetDirectory, di.Name, fi.Name);
+                if (File.Exists(path))
                 {
-                    if (fi.Length != new FileInfo(Path.Combine(targetDirectory, fi.Name)).Length)
+                    if (fi.Length != new FileInfo(path).Length)
                     {
-                        overwrite = true;
+                        File.Copy(fi.FullName, path, true);
                     }
                 }
-                File.Copy(fi.FullName, Path.Combine(targetDirectory, fi.Name), overwrite);
+                else
+                {
+                    File.Copy(fi.FullName, path, false);
+                }
             }
         }
 
         public static void DeleteChangedIcons()
         {
-            if (Directory.Exists(targetDirectory))
+            // TODO: Fix this
+            List<string> directories = ["de_thumbnails", "uk_thumbnails", "fr_thumbnails", "flags"];
+            foreach (var directory in directories)
             {
-                foreach (string file in Directory.GetFiles(targetDirectory))
+                var path = Path.Combine(targetDirectory, directory);
+                if (Directory.Exists(path))
                 {
-                    File.Delete(file);
+                    Directory.Delete(path, true);
                 }
             }
         }
