@@ -2,8 +2,6 @@
 using Colossal.IO.AssetDatabase;
 using Game.Modding;
 using Game.Settings;
-using Game.UI;
-using Game.UI.Widgets;
 using System.Collections.Generic;
 
 namespace RegionFlagIcons
@@ -16,17 +14,6 @@ namespace RegionFlagIcons
         public const string kSection = "Main";
 
         public const string kButtonGroup = "Group";
-
-        [SettingsUIButton]
-        [SettingsUIConfirmation]
-        [SettingsUISection(kSection)]
-        public bool DeleteChangedIcons
-        {
-            set
-            {
-                Mod.DeleteChangedIcons();
-            }
-        }
 
         public Setting(IMod mod) : base(mod)
         {
@@ -56,15 +43,6 @@ namespace RegionFlagIcons
                 { m_Setting.GetOptionTabLocaleID(Setting.kSection), "Main" },
 
                 { m_Setting.GetOptionGroupLocaleID(Setting.kButtonGroup), "Settings" },
-                {m_Setting.GetOptionLabelLocaleID(nameof(Setting.DeleteChangedIcons)), "Uninstall"},
-                {
-                    m_Setting.GetOptionDescLocaleID(nameof(Setting.DeleteChangedIcons)),
-                    $"This will remove the changed thumbnails from your AIL folder. Do this before uninstalling the mod, otherwise it will not have an effect."
-                },
-                {
-                    m_Setting.GetOptionWarningLocaleID(nameof(Setting.DeleteChangedIcons)),
-                    $"Uninstall the icons? Please make sure to also remove the mod from your playset to fully uninstall it"
-                },
             };
         }
 

@@ -76,657 +76,656 @@
     <ItemGroup>
         <None Include="$(ModPropsFile)" Link="Properties\Mod.props"/>
         <None Include="$(ModTargetsFile)" Link="Properties\Mod.targets"/>
-        <None Update="de_thumbnails\DE Residential Medium.png">
+        <None Update="ail\de_thumbnails\DE Residential Medium.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\DE Residential Mixed.png">
+        <None Update="ail\de_thumbnails\DE Residential Mixed.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_CommercialSignature01.png">
+        <None Update="ail\de_thumbnails\GER_CommercialSignature01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_CommercialSignature02.png">
+        <None Update="ail\de_thumbnails\GER_CommercialSignature02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_CommercialSignature03.png">
+        <None Update="ail\de_thumbnails\GER_CommercialSignature03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_ElementarySchool01_7x7.png">
+        <None Update="ail\de_thumbnails\GER_ElementarySchool01_7x7.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_ElementarySchool01Ext01_2x5.png">
+        <None Update="ail\de_thumbnails\GER_ElementarySchool01Ext01_2x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_ElementarySchool01Ext02_2x6.png">
+        <None Update="ail\de_thumbnails\GER_ElementarySchool01Ext02_2x6.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_FireHouse01_2x3.png">
+        <None Update="ail\de_thumbnails\GER_FireHouse01_2x3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_FireHouse01Ext01_1x3.png">
+        <None Update="ail\de_thumbnails\GER_FireHouse01Ext01_1x3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_FireHouse01Ext02_1x2.png">
+        <None Update="ail\de_thumbnails\GER_FireHouse01Ext02_1x2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_FireStation01_7x5.png">
+        <None Update="ail\de_thumbnails\GER_FireStation01_7x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_FireStation01Ext01_7x5.png">
+        <None Update="ail\de_thumbnails\GER_FireStation01Ext01_7x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_FireStation01Ext02_7x5.png">
+        <None Update="ail\de_thumbnails\GER_FireStation01Ext02_7x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_HighSchool01_8x9.png">
+        <None Update="ail\de_thumbnails\GER_HighSchool01_8x9.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_HighSchool01Ext01_2x6.png">
+        <None Update="ail\de_thumbnails\GER_HighSchool01Ext01_2x6.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_HighSchool01Ext02_6x2.png">
+        <None Update="ail\de_thumbnails\GER_HighSchool01Ext02_6x2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_LargeStation.png">
+        <None Update="ail\de_thumbnails\GER_LargeStation.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_LargeStationExtensionCommercial.png">
+        <None Update="ail\de_thumbnails\GER_LargeStationExtensionCommercial.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_LargeStationExtensionExit.png">
+        <None Update="ail\de_thumbnails\GER_LargeStationExtensionExit.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_LargeStationExtensionPlatform.png">
+        <None Update="ail\de_thumbnails\GER_LargeStationExtensionPlatform.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_PoliceHQ01_9x4.png">
+        <None Update="ail\de_thumbnails\GER_PoliceHQ01_9x4.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_PoliceHQ01Ext01_9x3.png">
+        <None Update="ail\de_thumbnails\GER_PoliceHQ01Ext01_9x3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_PoliceHQ01Ext02_9x3.png">
+        <None Update="ail\de_thumbnails\GER_PoliceHQ01Ext02_9x3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_PoliceStation01_4x5.png">
+        <None Update="ail\de_thumbnails\GER_PoliceStation01_4x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_PoliceStation01Ext01_4x5.png">
+        <None Update="ail\de_thumbnails\GER_PoliceStation01Ext01_4x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="de_thumbnails\GER_PoliceStation01Ext02_4x5.png">
+        <None Update="ail\de_thumbnails\GER_PoliceStation01Ext02_4x5.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\Arizona.svg">
+        <None Update="ail\flags\Arizona.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\China.svg">
+        <None Update="ail\flags\China.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\DE Pack Filter.svg">
+        <None Update="ail\flags\DE Pack Filter.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\FR Pack Filter.svg">
+        <None Update="ail\flags\FR Pack Filter.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\France.svg">
+        <None Update="ail\flags\France.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\Germany.svg">
+        <None Update="ail\flags\Germany.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\Japan.svg">
+        <None Update="ail\flags\Japan.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\New England.svg">
+        <None Update="ail\flags\New England.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\North American.svg">
+        <None Update="ail\flags\North American.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\Poland.svg">
+        <None Update="ail\flags\Poland.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\SanFranciscoSet.svg">
+        <None Update="ail\flags\SanFranciscoSet.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\UK Pack Filter.svg">
+        <None Update="ail\flags\UK Pack Filter.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="flags\Ukraine.svg">
+        <None Update="ail\flags\Ukraine.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR Office High.png">
+        <None Update="ail\fr_thumbnails\FR Office High.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR Residential LowRent.png">
+        <None Update="ail\fr_thumbnails\FR Residential LowRent.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR Residential Medium.png">
+        <None Update="ail\fr_thumbnails\FR Residential Medium.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR Residential Medium Row.png">
+        <None Update="ail\fr_thumbnails\FR Residential Medium Row.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR Residential Mixed.png">
+        <None Update="ail\fr_thumbnails\FR Residential Mixed.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_CityHall01.png">
+        <None Update="ail\fr_thumbnails\FR_CityHall01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_CityHall01_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_CityHall01_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_CityHall01_Ext02.png">
+        <None Update="ail\fr_thumbnails\FR_CityHall01_Ext02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_College.png">
+        <None Update="ail\fr_thumbnails\FR_College.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_CollegeExt01.png">
+        <None Update="ail\fr_thumbnails\FR_CollegeExt01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_Crematorium.png">
+        <None Update="ail\fr_thumbnails\FR_Crematorium.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_Crematorium_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_Crematorium_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_ElectricalSubstation.png">
+        <None Update="ail\fr_thumbnails\FR_ElectricalSubstation.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_ElementarySchool.png">
+        <None Update="ail\fr_thumbnails\FR_ElementarySchool.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_ElementarySchoolExt01.png">
+        <None Update="ail\fr_thumbnails\FR_ElementarySchoolExt01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireHouse01.png">
+        <None Update="ail\fr_thumbnails\FR_FireHouse01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireHouse01_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_FireHouse01_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireHouse01_Ext02.png">
+        <None Update="ail\fr_thumbnails\FR_FireHouse01_Ext02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireHouse01_Ext03.png">
+        <None Update="ail\fr_thumbnails\FR_FireHouse01_Ext03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireHouse01_Ext04.png">
+        <None Update="ail\fr_thumbnails\FR_FireHouse01_Ext04.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireStation01.png">
+        <None Update="ail\fr_thumbnails\FR_FireStation01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireStation01_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_FireStation01_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_FireStation01_Ext02.png">
+        <None Update="ail\fr_thumbnails\FR_FireStation01_Ext02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_Folies.png">
+        <None Update="ail\fr_thumbnails\FR_Folies.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_HighSchool.png">
+        <None Update="ail\fr_thumbnails\FR_HighSchool.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_HighSchool_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_HighSchool_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_HighSchool_Ext02.png">
+        <None Update="ail\fr_thumbnails\FR_HighSchool_Ext02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_Hospital.png">
+        <None Update="ail\fr_thumbnails\FR_Hospital.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_HospitalExt01.png">
+        <None Update="ail\fr_thumbnails\FR_HospitalExt01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_MedicalCenter.png">
+        <None Update="ail\fr_thumbnails\FR_MedicalCenter.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_MedicalCenter_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_MedicalCenter_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_MixedCornerSignature01_3x3.png">
+        <None Update="ail\fr_thumbnails\FR_MixedCornerSignature01_3x3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_OfficeSignature01_7x3.png">
+        <None Update="ail\fr_thumbnails\FR_OfficeSignature01_7x3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_PoliceHQ.png">
+        <None Update="ail\fr_thumbnails\FR_PoliceHQ.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_PoliceHQ_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_PoliceHQ_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_PoliceHQ_Ext02.png">
+        <None Update="ail\fr_thumbnails\FR_PoliceHQ_Ext02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_PoliceStation01.png">
+        <None Update="ail\fr_thumbnails\FR_PoliceStation01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_PoliceStation01_Ext01.png">
+        <None Update="ail\fr_thumbnails\FR_PoliceStation01_Ext01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_ResidentialMixedSignature01.png">
+        <None Update="ail\fr_thumbnails\FR_ResidentialMixedSignature01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_ResidentialSignature01_2x2.png">
+        <None Update="ail\fr_thumbnails\FR_ResidentialSignature01_2x2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_Station.png">
+        <None Update="ail\fr_thumbnails\FR_Station.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_StationExt1.png">
+        <None Update="ail\fr_thumbnails\FR_StationExt1.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_WaterTower.png">
+        <None Update="ail\fr_thumbnails\FR_WaterTower.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="fr_thumbnails\FR_WaterTowerExtension.png">
+        <None Update="ail\fr_thumbnails\FR_WaterTowerExtension.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\Supermarket Shopping Trolley x1.png">
+        <None Update="ail\uk_thumbnails\Supermarket Shopping Trolley x1.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\Supermarket Shopping Trolley x6.png">
+        <None Update="ail\uk_thumbnails\Supermarket Shopping Trolley x6.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK City Apartments.png">
+        <None Update="ail\uk_thumbnails\UK City Apartments.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Country Hotel (2 Star).png">
+        <None Update="ail\uk_thumbnails\UK Country Hotel (2 Star).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Country Hotel (3 Star).png">
+        <None Update="ail\uk_thumbnails\UK Country Hotel (3 Star).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Country Hotel (5 Star).png">
+        <None Update="ail\uk_thumbnails\UK Country Hotel (5 Star).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Estate Gate 01.png">
+        <None Update="ail\uk_thumbnails\UK Estate Gate 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Estate Gate 02.png">
+        <None Update="ail\uk_thumbnails\UK Estate Gate 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Estate Gate 03.png">
+        <None Update="ail\uk_thumbnails\UK Estate Gate 03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Executive House.png">
+        <None Update="ail\uk_thumbnails\UK Executive House.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Executive Mansion.png">
+        <None Update="ail\uk_thumbnails\UK Executive Mansion.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Fire Station 01.png">
+        <None Update="ail\uk_thumbnails\UK Fire Station 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Fire Station 01 - Extension 01.png">
+        <None Update="ail\uk_thumbnails\UK Fire Station 01 - Extension 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Fire Station 01 - Extension 02.png">
+        <None Update="ail\uk_thumbnails\UK Fire Station 01 - Extension 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Hedge 01 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Hedge 01 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Hedge 01 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Hedge 01 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Hedge 01 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Hedge 01 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Hedge 01 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Hedge 01 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Room 01.png">
+        <None Update="ail\uk_thumbnails\UK Garden Room 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Room 02.png">
+        <None Update="ail\uk_thumbnails\UK Garden Room 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Room 03.png">
+        <None Update="ail\uk_thumbnails\UK Garden Room 03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Room 04.png">
+        <None Update="ail\uk_thumbnails\UK Garden Room 04.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Room 05.png">
+        <None Update="ail\uk_thumbnails\UK Garden Room 05.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Room 06.png">
+        <None Update="ail\uk_thumbnails\UK Garden Room 06.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Shed 01.png">
+        <None Update="ail\uk_thumbnails\UK Garden Shed 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Shed 02.png">
+        <None Update="ail\uk_thumbnails\UK Garden Shed 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Shed 03.png">
+        <None Update="ail\uk_thumbnails\UK Garden Shed 03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Shed 04.png">
+        <None Update="ail\uk_thumbnails\UK Garden Shed 04.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Shed 05.png">
+        <None Update="ail\uk_thumbnails\UK Garden Shed 05.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Shed 06.png">
+        <None Update="ail\uk_thumbnails\UK Garden Shed 06.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 01 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 01 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 01 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 01 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 01 - Short (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 01 - Short (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 01 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 01 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 01 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 01 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 01 - Tall (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 01 - Tall (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 02 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 02 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 02 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 02 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 02 - Short (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 02 - Short (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 02 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 02 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 02 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 02 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 02 - Tall (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 02 - Tall (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 03 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 03 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 03 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 03 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 03 - Short (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 03 - Short (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 03 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 03 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 03 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 03 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 03 - Tall (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 03 - Tall (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 04 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 04 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 04 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 04 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 04 - Short (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 04 - Short (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 04 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 04 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 04 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 04 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 04 - Tall (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 04 - Tall (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 05 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 05 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 05 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 05 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 05 - Short (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 05 - Short (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 05 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 05 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 05 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 05 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Garden Wall 05 - Tall (Pillar).png">
+        <None Update="ail\uk_thumbnails\UK Garden Wall 05 - Tall (Pillar).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Hospital Cancer Centre.png">
+        <None Update="ail\uk_thumbnails\UK Hospital Cancer Centre.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Hospital Children's Ward.png">
+        <None Update="ail\uk_thumbnails\UK Hospital Children's Ward.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Hospital General Infirmary.png">
+        <None Update="ail\uk_thumbnails\UK Hospital General Infirmary.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Large Executive House.png">
+        <None Update="ail\uk_thumbnails\UK Large Executive House.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Large Executive Mansion.png">
+        <None Update="ail\uk_thumbnails\UK Large Executive Mansion.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Large Supermarket.png">
+        <None Update="ail\uk_thumbnails\UK Large Supermarket.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Medical Practice 01.png">
+        <None Update="ail\uk_thumbnails\UK Medical Practice 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Medical Practice 01 - Extension 01.png">
+        <None Update="ail\uk_thumbnails\UK Medical Practice 01 - Extension 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Medical Practice 01 - Extension 02.png">
+        <None Update="ail\uk_thumbnails\UK Medical Practice 01 - Extension 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Drive Gate 01.png">
+        <None Update="ail\uk_thumbnails\UK Metal Drive Gate 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Drive Gate 02.png">
+        <None Update="ail\uk_thumbnails\UK Metal Drive Gate 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Drive Gate 03.png">
+        <None Update="ail\uk_thumbnails\UK Metal Drive Gate 03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Garden Gate 01 - Short.png">
+        <None Update="ail\uk_thumbnails\UK Metal Garden Gate 01 - Short.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Garden Gate 01 - Tall.png">
+        <None Update="ail\uk_thumbnails\UK Metal Garden Gate 01 - Tall.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Garden Gate 02 - Short.png">
+        <None Update="ail\uk_thumbnails\UK Metal Garden Gate 02 - Short.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Garden Gate 02 - Tall.png">
+        <None Update="ail\uk_thumbnails\UK Metal Garden Gate 02 - Tall.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Garden Gate 03 - Short.png">
+        <None Update="ail\uk_thumbnails\UK Metal Garden Gate 03 - Short.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Garden Gate 03 - Tall.png">
+        <None Update="ail\uk_thumbnails\UK Metal Garden Gate 03 - Tall.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 01 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 01 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 01 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 01 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 01 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 01 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 01 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 01 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 02 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 02 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 02 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 02 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 02 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 02 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 02 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 02 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 03 - Short (2m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 03 - Short (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 03 - Short (4m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 03 - Short (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 03 - Tall (2m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 03 - Tall (2m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Metal Railing 03 - Tall (4m).png">
+        <None Update="ail\uk_thumbnails\UK Metal Railing 03 - Tall (4m).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Mixed Suburban Shops 01.png">
+        <None Update="ail\uk_thumbnails\UK Mixed Suburban Shops 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Parish Church.png">
+        <None Update="ail\uk_thumbnails\UK Parish Church.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Parish Church Expansion 1.png">
+        <None Update="ail\uk_thumbnails\UK Parish Church Expansion 1.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Parish Church Expansion 2.png">
+        <None Update="ail\uk_thumbnails\UK Parish Church Expansion 2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Petrol Station 1 (Large).png">
+        <None Update="ail\uk_thumbnails\UK Petrol Station 1 (Large).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Petrol Station 1 (Medium).png">
+        <None Update="ail\uk_thumbnails\UK Petrol Station 1 (Medium).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Petrol Station 1 (Small).png">
+        <None Update="ail\uk_thumbnails\UK Petrol Station 1 (Small).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Police Station 01.png">
+        <None Update="ail\uk_thumbnails\UK Police Station 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Police Station 01 Extension 01.png">
+        <None Update="ail\uk_thumbnails\UK Police Station 01 Extension 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Police Station 01 Extension 02.png">
+        <None Update="ail\uk_thumbnails\UK Police Station 01 Extension 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 01.png">
+        <None Update="ail\uk_thumbnails\UK Pub 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 01 - Upgrade 1.png">
+        <None Update="ail\uk_thumbnails\UK Pub 01 - Upgrade 1.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 01 - Upgrade 2.png">
+        <None Update="ail\uk_thumbnails\UK Pub 01 - Upgrade 2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 2.png">
+        <None Update="ail\uk_thumbnails\UK Pub 2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 2 (Upgrade 1).png">
+        <None Update="ail\uk_thumbnails\UK Pub 2 (Upgrade 1).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 2 (Upgrade 2).png">
+        <None Update="ail\uk_thumbnails\UK Pub 2 (Upgrade 2).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 3.png">
+        <None Update="ail\uk_thumbnails\UK Pub 3.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 3 (Upgrade 1).png">
+        <None Update="ail\uk_thumbnails\UK Pub 3 (Upgrade 1).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 3 (Upgrade 2).png">
+        <None Update="ail\uk_thumbnails\UK Pub 3 (Upgrade 2).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 4.png">
+        <None Update="ail\uk_thumbnails\UK Pub 4.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 4 (Upgrade 1).png">
+        <None Update="ail\uk_thumbnails\UK Pub 4 (Upgrade 1).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Pub 4 (Upgrade 2).png">
+        <None Update="ail\uk_thumbnails\UK Pub 4 (Upgrade 2).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Residential High Flats.png">
+        <None Update="ail\uk_thumbnails\UK Residential High Flats.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Residential Low.png">
+        <None Update="ail\uk_thumbnails\UK Residential Low.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Residential Medium Flats.png">
+        <None Update="ail\uk_thumbnails\UK Residential Medium Flats.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Residential Medium Semi-Detached.png">
+        <None Update="ail\uk_thumbnails\UK Residential Medium Semi-Detached.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Residential Medium Terraced.png">
+        <None Update="ail\uk_thumbnails\UK Residential Medium Terraced.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Residential Mixed.png">
+        <None Update="ail\uk_thumbnails\UK Residential Mixed.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Rotary Washing Line 01.png">
+        <None Update="ail\uk_thumbnails\UK Rotary Washing Line 01.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Rotary Washing Line 02.png">
+        <None Update="ail\uk_thumbnails\UK Rotary Washing Line 02.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Rotary Washing Line 03.png">
+        <None Update="ail\uk_thumbnails\UK Rotary Washing Line 03.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Secondary School.png">
+        <None Update="ail\uk_thumbnails\UK Secondary School.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Secondary Sports Building.png">
+        <None Update="ail\uk_thumbnails\UK Secondary Sports Building.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Secondary Technology Wing.png">
+        <None Update="ail\uk_thumbnails\UK Secondary Technology Wing.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Suburban Primary Expansion 1.png">
+        <None Update="ail\uk_thumbnails\UK Suburban Primary Expansion 1.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Suburban Primary Expansion 2.png">
+        <None Update="ail\uk_thumbnails\UK Suburban Primary Expansion 2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Suburban Primary School.png">
+        <None Update="ail\uk_thumbnails\UK Suburban Primary School.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Urban Primary Expansion 1.png">
+        <None Update="ail\uk_thumbnails\UK Urban Primary Expansion 1.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Urban Primary Expansion 2.png">
+        <None Update="ail\uk_thumbnails\UK Urban Primary Expansion 2.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Urban Primary School.png">
+        <None Update="ail\uk_thumbnails\UK Urban Primary School.png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Wheelie Bin (120Ltr).png">
+        <None Update="ail\uk_thumbnails\UK Wheelie Bin (120Ltr).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Wheelie Bin (240Ltr).png">
+        <None Update="ail\uk_thumbnails\UK Wheelie Bin (240Ltr).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="uk_thumbnails\UK Wheelie Bin (660Ltr).png">
+        <None Update="ail\uk_thumbnails\UK Wheelie Bin (660Ltr).png">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
-
 </Project>
