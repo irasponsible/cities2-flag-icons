@@ -8,7 +8,18 @@
 	<!--Long description of the mod. Single line or multi line. Supports minimal markdown subset-->
 	<!--LongDescription Value="This is a long description" /-->
 	<LongDescription>
-Use Flags instead of "DE", "FR", etc., for icons and thumbnails with CS2 region packs.
+Use Flags instead of digraphs ("DE", "FR", "UK") or a map (NA) for regions and region packs.
+
+The Theme Icons are replaced with a country's flag, which have been simplified a bit where needed.
+The Asset Pack icons are baked on - so the flag is pasted over the top of the originals.
+
+**Can you move the flag to the left to match the vanilla Region icons?**
+I'd love to - but I don't have a copy of the the thumbnails without the stamp already on them. If you want to go through and cleanly remove the country-digraph stamp from every thumbnail, let me know.
+
+**Why is all of North America represented with just the US Flag?**
+You're welcome to make a Canadian option, but a "US/CA" mash up would just be illegible at this size. You can delete `North American.svg` from the mod files to revert to the vanilla thumbnail, or copy the vanilla thumbnail to AIL's `CustomThumbnails` Folder.
+
+
 	</LongDescription>
 	<!--Thumbnail-->
 	<Thumbnail Value="Properties/Thumbnail.png" />
@@ -29,5 +40,5 @@ Use Flags instead of "DE", "FR", etc., for icons and thumbnails with CS2 region 
 	<!--ChangeLog>
 	</ChangeLog-->
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/irasponsible/cities2-flag-icons" />
 </Publish>
