@@ -14,7 +14,7 @@ The Theme Icons are replaced with a country's flag, which have been simplified a
 The Asset Pack icons are baked on - so the flag is pasted over the top of the originals.
 
 **Can you move the flag to the left to match the vanilla Region icons?**
-I'd love to - but I don't have a copy of the the thumbnails without the stamp already on them. If you want to go through and cleanly remove the country-digraph stamp from every thumbnail, let me know.
+I'd love to - but I don't have a copy of the thumbnails without the stamp already on them. If you want to go through and cleanly remove the country-digraph stamp from every thumbnail, let me know.
 
 **Why is all of North America represented with just the US Flag?**
 You're welcome to make a Canadian option, but a "US/CA" mash up would just be illegible at this size. You can delete `North American.svg` from the mod files to revert to the vanilla thumbnail, or copy the vanilla thumbnail to AIL's `CustomThumbnails` Folder.
