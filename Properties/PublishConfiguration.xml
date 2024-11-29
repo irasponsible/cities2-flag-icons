@@ -27,6 +27,9 @@ You're welcome to make a Canadian option, but a "US/CA" mash up would just be il
 	<Thumbnail Value="Properties/Thumbnail.png" />
 	<!--Screenshot, can be set multiple times-->
 	<Screenshot Value="Properties/image1.png" />
+	<Screenshot Value="Properties/image2.png" />
+	<Screenshot Value="Properties/image3.png" />
+	<Screenshot Value="Properties/image4.png" />
 	<!--Tag, can be set multiple times-->
 	<Tag Value="Code Mod" />
 	<!--Link to the forum post where the mod can be discussed-->
