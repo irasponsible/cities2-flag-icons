@@ -3,6 +3,7 @@ using Colossal.IO.AssetDatabase;
 using Game.Modding;
 using Game.Settings;
 using System.Collections.Generic;
+using UnityEngine;
 
 namespace RegionFlagIcons
 {
@@ -11,6 +12,13 @@ namespace RegionFlagIcons
     [SettingsUIShowGroupName(kButtonGroup)]
     public class Setting : ModSetting
     {
+        public enum FlagStyle_NA
+        {
+            USA,
+            Canada
+        }
+
+
         public const string kSection = "Main";
 
         public const string kButtonGroup = "Group";
@@ -19,9 +27,23 @@ namespace RegionFlagIcons
         {
         }
 
+        [SettingsUISection(kSection, kButtonGroup)]
+        public FlagStyle_NA NorthAmericanFlagStyle
+        { get; set; } = FlagStyle_NA.USA;
+
+        [SettingsUISection(kSection, kButtonGroup)]
+        public bool ApplyChanges
+        {
+            set
+            {
+                Mod.CheckFlagStyles();
+                Application.Quit();
+            }
+        }
+
         public override void SetDefaults()
         {
-            throw new System.NotImplementedException();
+            NorthAmericanFlagStyle = FlagStyle_NA.USA;
         }
     }
 
@@ -43,6 +65,25 @@ namespace RegionFlagIcons
                 { m_Setting.GetOptionTabLocaleID(Setting.kSection), "Main" },
 
                 { m_Setting.GetOptionGroupLocaleID(Setting.kButtonGroup), "Settings" },
+
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.NorthAmericanFlagStyle)), "North American Flag Style" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.NorthAmericanFlagStyle)),
+                    $"Change the icon used for north american flags"
+                },
+
+                { m_Setting.GetEnumValueLocaleID(Setting.FlagStyle_NA.USA), "USA" },
+                { m_Setting.GetEnumValueLocaleID(Setting.FlagStyle_NA.Canada), "Canada" },
+
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.ApplyChanges)), "Restart Game to Apply Changes" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.ApplyChanges)),
+                    $"Click to close the game. After a restart the changes will be applied. If you don't want to restart right now, the changes will take effect when the game is started next time."
+                },
+                {
+                    m_Setting.GetOptionWarningLocaleID(nameof(Setting.ApplyChanges)),
+                    "Game will be closed?"
+                },
             };
         }
 

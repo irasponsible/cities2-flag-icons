@@ -22,7 +22,7 @@ I'm intending to use New England or Chicago for the US Northeast Pack, Arizona o
 I'd love to - but I don't have a copy of the thumbnails without the stamp already on them.
 
 **Why is all of North America represented with just the US Flag?**
-A Canadian alternative is included in the games files - just rename it to match the other one and it should work after a game restart. We're considering adding a 'switch' for that one, since there's only one file to change for the NA region icon.
+You can choose between the US and Canadian flags in the mod options.
 
 **What about the San Fransisco DLC?**
 I tried, but for some reason it just wouldn't work. Ah well - it means I've got the California flag ready to go if it's a good fit for the US Southwest pack.
@@ -42,15 +42,16 @@ Plan is to add all the official region packs, and then after that - not sure.
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/region-flag-icons.1718385/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.0.0" />
+	<ModVersion Value="1.1.0" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.1.*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="79634" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
-	<ChangeLog Value="" />
-	<!--ChangeLog>
-	</ChangeLog-->
+	<ChangeLog>
+- Added Japanese Pack
+- Added option to choose between US and Canadian flag for North America
+	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/irasponsible/cities2-flag-icons" />
 </Publish>

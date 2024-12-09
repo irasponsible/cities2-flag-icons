@@ -181,9 +181,6 @@
         <None Update="ail\flags\New England.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
-        <None Update="ail\flags\North American.svg">
-          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-        </None>
         <None Update="ail\flags\Poland.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
@@ -725,6 +722,159 @@
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
         <None Update="ail\uk_thumbnails\UK Wheelie Bin (660Ltr).png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\flags\North American.svg\USA.svg">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\flags\North American.svg\Canada.svg">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\flags\North American\Canada.svg">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\flags\North American\USA.svg">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\dJP-ResProps-BikeShelter4m.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\dJP-ResProps-Carport-Shelter-A.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\dJP-ResProps-ShedFull.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\dJP-ResProps-ShedHalf.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\dJP-SchoolProps-GateClosed.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\dJP-SchoolProps-GateOpen.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_CityHall01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_College01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_College01_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_College01_Ext02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_ElementarySchool01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_ElementarySchool01_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_ElementarySchool01_Ext02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Fire House.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Fire House_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Fire Station.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Fire Station_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Fire Station_Ext02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Fire Station_Sub01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_HighSchool01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_HighSchool01_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_HighSchool01_Ext02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Hospital01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Hospital01_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_MedicalClinic01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_MedicalClinic01_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_OfficeHighSignature02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_OfficeHighSignature03.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Police HQ01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Police HQ_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Police HQ_Ext02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Police Station.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Police Station_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Post Office.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Radio Mast.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Recycling Center.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_University01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_University01_Ext01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_University01_Ext02.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_Wastewater Treatment.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\JP_WelfareOffice01.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\ZoneJPCommercialLow.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\ZoneJPLowResidential.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\ZoneJPMixed.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\jp_thumbnails\ZoneJPResidentialMedium.png">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\flags\Chicago.svg">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+        </None>
+        <None Update="ail\flags\JP Pack Filter.svg">
           <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>
