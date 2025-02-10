@@ -76,7 +76,7 @@
     <ItemGroup>
         <None Include="$(ModPropsFile)" Link="Properties\Mod.props"/>
         <None Include="$(ModTargetsFile)" Link="Properties\Mod.targets"/>
-        <None Include="ail\**\*.*">
+        <None Include=".ail\**\*.*">
             <CopyToOutputDirectory>Always</CopyToOutputDirectory>
         </None>
     </ItemGroup>

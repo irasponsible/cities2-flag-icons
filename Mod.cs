@@ -1,11 +1,9 @@
-﻿using System.Collections.Generic;
-using System.IO;
+﻿using System.IO;
 using Colossal.Logging;
 using Game;
 using Game.Modding;
 using Game.SceneFlow;
 using Colossal.IO.AssetDatabase;
-using Colossal.PSI.Environment;
 
 namespace RegionFlagIcons
 {
@@ -38,7 +36,7 @@ namespace RegionFlagIcons
 
         public static void CheckFlagStyles()
         {
-            var baseDir = Path.Combine(new FileInfo(m_AssetPath).Directory.FullName, "ail", "flags");
+            var baseDir = Path.Combine(new FileInfo(m_AssetPath).Directory.FullName, ".ail", "flags");
 
             var naDir = Path.Combine(baseDir, "North American");
             string fileName = "";
