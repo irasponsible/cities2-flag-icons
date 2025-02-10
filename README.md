@@ -41,26 +41,26 @@ This mod includes icons for all currently released region packs (as of 2025/02/1
 There wouldn't be much reason to use flags for the Urban Promenades or Modern Architecture pack, so this mod makes no changes to those.
 
 ## Questions
-**Can you move the flag to the left to match the vanilla Region icons?**
+**Can you move the flag to the left to match the vanilla Region icons?**  
 We'd love to - but we don't have a copy of the thumbnails without the stamp already on them. If you have SVG or versions of these thumbnails, hit us up!
 
-**Why is all of North America represented with just the US Flag?**
+**Why is all of North America represented with just the US Flag?**  
 You can choose between a United States or Canadian flag in the mod options panel.
 
-**Why is all of Eastern Europe represented with just the Ukrainian Flag?**
+**Why is all of Eastern Europe represented with just the Ukrainian Flag?**  
 Based on the Development Diary for the Eastern Europe region pack, we've gone with a Ukrainian flag to represent the region.
 Signature Buildings with a specified origin have been given with a flag that identifies the country they are from. We might do this for service buildings in the pack too - it'll be a little bit more work, but figured we get the pack out sooner than later, and come back to it another time. (I'm quite busy IRL at the moment, so this might take a bit -irasponsible)
 
-**Why is all of China represented with just the Flag of the People's Republic of China?**
+**Why is all of China represented with just the Flag of the People's Republic of China?**  
 The architecture shown in the content pack does not seem particularly inspired by Hong Kong nor Taiwan.
 
-**What about the San Francisco DLC?**
+**What about the San Francisco DLC?**  
 I tried, but for some reason it just wouldn't work. Ah well - it means I've got the California flag ready to go if it's a good fit for the US Southwest pack.
 
-**Why don't the zone icons have the same style as the new vanilla zone icons?**
+**Why don't the zone icons have the same style as the new vanilla zone icons?**  
 Since the French, German, British, and Japanese packs were released before the vanilla zone icon style changed, they still use the old-style zone icons, which is the same with or without this mod. We're waiting on an update for Paradox on these ones.
 
-**Will you add** ***x*** **?**
+**Will you add** ***x*** **?**  
 Plan is to add all the official region packs, and then after that - not sure.
 
 ----
