@@ -25,7 +25,7 @@ To use these icons, you must install **Asset Icon Library** from [Paradox Mods](
 
 ### Manual Install
 
-Download and extract the zip file from [the releases page](https://github.com/irasponsible/cities2-flag-icons/releases). Then, add the files you want to the CustomThumbnails folder. 
+Download and extract the zip file from [the releases page](https://github.com/irasponsible/cities2-flag-icons/releases). Then, add the files you want to the `ModsData/AssetIconLibrary/CustomThumbnails` folder. 
 
 Located here on Linux:  
 
@@ -36,14 +36,33 @@ Located here on Windows:
     ...\AppData\LocalLow\Colossal Order\Cities Skylines II\ModsData\AssetIconLibrary\CustomThumbnails
 
 ## Support for Region Packs
-Currently, this has icons for the French, German, and UK packs, the first to be released. I have [flags](https://github.com/irasponsible/cities2-flag-icons/blob/main/ail/flags) ready to go for [the other content packs](https://www.paradoxinteractive.com/games/cities-skylines-ii/modding/cities-skylines-ii-region-packs) once they're released as well. I'm intending to use New England or Chicago for the US Northeast Pack, Arizona or Califoria for US Southwest, and Poland or Ukraine for Eastern Europe, but I'll wait and see where the buildings pull their inspiration from.
+This mod includes icons for all currently released region packs (as of 2025/02/10). Flags are ready to go for the other content packs once they're released as well.  The plan is to use New England or Chicago for the US Northeast Pack, and Arizona or California for US Southwest - but we'll wait and see where the buildings pull their inspiration from.
+
+There wouldn't be much reason to use flags for the Urban Promenades or Modern Architecture pack, so this mod makes no changes to those.
 
 ## Questions
-**Can you move the flag to the left to match the vanilla Region icons?**  
-I'd love to - but I don't have a copy of the the thumbnails without the stamp already on them. If you want to go through and cleanly remove the country-digraph stamp from every thumbnail, let me know.
+**Can you move the flag to the left to match the vanilla Region icons?**
+We'd love to - but we don't have a copy of the thumbnails without the stamp already on them. If you have SVG or versions of these thumbnails, hit us up!
 
-**What about the San Fransisco DLC?**  
+**Why is all of North America represented with just the US Flag?**
+You can choose between a United States or Canadian flag in the mod options panel.
+
+**Why is all of Eastern Europe represented with just the Ukrainian Flag?**
+Based on the Development Diary for the Eastern Europe region pack, we've gone with a Ukrainian flag to represent the region.
+Signature Buildings with a specified origin have been given with a flag that identifies the country they are from. We might do this for service buildings in the pack too - it'll be a little bit more work, but figured we get the pack out sooner than later, and come back to it another time. (I'm quite busy IRL at the moment, so this might take a bit -irasponsible)
+
+**Why is all of China represented with just the Flag of the People's Republic of China?**
+The architecture shown in the content pack does not seem particularly inspired by Hong Kong nor Taiwan.
+
+**What about the San Francisco DLC?**
 I tried, but for some reason it just wouldn't work. Ah well - it means I've got the California flag ready to go if it's a good fit for the US Southwest pack.
 
-**Will you add x?**  
-I'll add all the official region packs and then after that, not sure.
+**Why don't the zone icons have the same style as the new vanilla zone icons?**
+Since the French, German, British, and Japanese packs were released before the vanilla zone icon style changed, they still use the old-style zone icons, which is the same with or without this mod. We're waiting on an update for Paradox on these ones.
+
+**Will you add** ***x*** **?**
+Plan is to add all the official region packs, and then after that - not sure.
+
+----
+
+*As a final note - flags are political symbols by their very nature. If you don't like our choice for one pack or another, you can remove the corresponding folder in the mod files, or download the files from Github and install your preferred options by placing them in your AIL Custom Thumbnails folder.*
