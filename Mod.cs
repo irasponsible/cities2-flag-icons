@@ -28,7 +28,13 @@ namespace RegionFlagIcons
             m_Setting = new Setting(this);
             m_Setting.RegisterInOptionsUI();
             GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(m_Setting));
-
+            
+            // Temporary, until AIL fixes this
+            var oldAilFolder = Path.Combine(new FileInfo(m_AssetPath).Directory.FullName, "ail");
+            if (Directory.Exists(oldAilFolder))
+            {
+                Directory.Delete(oldAilFolder, true);
+            }
             AssetDatabase.global.LoadSettings(nameof(RegionFlagIcons), m_Setting, new Setting(this));
             CheckFlagStyles();
         }
