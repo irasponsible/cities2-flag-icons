@@ -8,8 +8,8 @@ using UnityEngine;
 namespace RegionFlagIcons
 {
     [FileLocation($"ModsSettings/{nameof(RegionFlagIcons)}/{nameof(RegionFlagIcons)}")]
-    [SettingsUIGroupOrder(kButtonGroup)]
-    [SettingsUIShowGroupName(kButtonGroup)]
+    [SettingsUIGroupOrder(kRegionSettingsGroup, kPackSettingsGroup)]
+    [SettingsUIShowGroupName(kRegionSettingsGroup, kPackSettingsGroup)]
     public class Setting : ModSetting
     {
         public enum FlagStyle_NA
@@ -21,17 +21,14 @@ namespace RegionFlagIcons
 
         public const string kSection = "Main";
 
-        public const string kButtonGroup = "Group";
+        public const string kRegionSettingsGroup = "Region Icon Settings";
+        public const string kPackSettingsGroup = "Pack Icon Settings";
 
         public Setting(IMod mod) : base(mod)
         {
         }
 
-        [SettingsUISection(kSection, kButtonGroup)]
-        public FlagStyle_NA NorthAmericanFlagStyle
-        { get; set; } = FlagStyle_NA.USA;
-
-        [SettingsUISection(kSection, kButtonGroup)]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
         public bool ApplyChanges
         {
             set
@@ -40,6 +37,11 @@ namespace RegionFlagIcons
                 Application.Quit();
             }
         }
+        
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public FlagStyle_NA NorthAmericanFlagStyle
+        { get; set; } = FlagStyle_NA.USA;
+        
 
         public override void SetDefaults()
         {
@@ -64,7 +66,8 @@ namespace RegionFlagIcons
                 { m_Setting.GetSettingsLocaleID(), "Region Flag Icons" },
                 { m_Setting.GetOptionTabLocaleID(Setting.kSection), "Main" },
 
-                { m_Setting.GetOptionGroupLocaleID(Setting.kButtonGroup), "Settings" },
+                { m_Setting.GetOptionGroupLocaleID(Setting.kRegionSettingsGroup), "Region Icon Settings" },
+                { m_Setting.GetOptionGroupLocaleID(Setting.kPackSettingsGroup), "Asset Pack Icon Settings" },
 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.NorthAmericanFlagStyle)), "North American Flag Style" },
                 {
