@@ -5,7 +5,7 @@
    viewBox="0 0 40 40"
    version="1.1"
    id="svg1"
-   sodipodi:docname="Japan.svg"
+   sodipodi:docname="Finland.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -20,10 +20,15 @@
      inkscape:pageopacity="0"
      inkscape:pagecheckerboard="1"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="16"
-     inkscape:cx="13.5625"
-     inkscape:cy="22.21875"
-     inkscape:current-layer="svg1" />
+     inkscape:zoom="22.627417"
+     inkscape:cx="19.754796"
+     inkscape:cy="20.285126"
+     inkscape:current-layer="svg1"
+     inkscape:window-width="1864"
+     inkscape:window-height="1105"
+     inkscape:window-x="28"
+     inkscape:window-y="67"
+     inkscape:window-maximized="1" />
   <defs
      id="defs1">
     <inkscape:path-effect
@@ -85,22 +90,40 @@
          id="rect1" />
     </clipPath>
   </defs>
+  <g
+     id="European"
+     clip-path="url(#clip-European)"
+     style="fill:#ffffff;fill-opacity:1">
+    <g
+       id="European-2"
+       data-name="European"
+       transform="translate(4 4)"
+       style="fill:#ffffff;fill-opacity:1">
+      <rect
+         id="Rectangle_4426"
+         data-name="Rectangle 4426"
+         width="32"
+         height="32"
+         rx="4"
+         fill="#039"
+         style="fill:#ffffff;fill-opacity:1" />
+    </g>
+  </g>
   <rect
-     id="Rectangle_4426"
-     data-name="Rectangle 4426"
-     width="32"
-     height="32"
-     rx="4"
-     fill="#039"
-     style="fill:#f6f5f4;fill-opacity:1"
-     ry="4"
-     x="0"
-     y="0"
-     transform="rotate(90,15.75,20)" />
-  <circle
-     style="fill:#c01c28;fill-opacity:1;stroke:#241f31;stroke-width:0;stroke-linecap:round"
-     id="path5"
-     cx="20"
-     cy="20"
-     r="10" />
+     style="fill:#002f6c;fill-opacity:1;stroke-width:0.991648"
+     id="rect4"
+     width="5.633749"
+     height="31.998268"
+     x="12.625"
+     y="3.9950066"
+     rx="0" />
+  <rect
+     style="fill:#002f6c;fill-opacity:1;stroke-width:0.991587"
+     id="rect4-2"
+     width="5.633749"
+     height="31.994362"
+     x="17.183125"
+     y="-35.997181"
+     rx="0"
+     transform="rotate(90)" />
 </svg>
