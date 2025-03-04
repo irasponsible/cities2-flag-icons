@@ -5,6 +5,8 @@ using Game;
 using Game.Modding;
 using Game.SceneFlow;
 using Colossal.IO.AssetDatabase;
+using AssetIconLibrary;
+using Colossal.PSI.Environment;
 
 namespace RegionFlagIcons
 {
@@ -15,7 +17,8 @@ namespace RegionFlagIcons
 
         private static Setting m_Setting;
         private static string m_AssetPath;
-        private static string _baseDirectory;
+        private static string _modDirectory;
+        private static string _resourcesDirectory;
 
         public void OnLoad(UpdateSystem updateSystem)
         {
@@ -25,7 +28,8 @@ namespace RegionFlagIcons
             {
                 log.Info($"Region Flag Icons loaded");
                 m_AssetPath = asset.path;
-                _baseDirectory = new FileInfo(m_AssetPath).Directory.FullName;
+                _modDirectory = new FileInfo(m_AssetPath).Directory.FullName;
+                _resourcesDirectory = Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources");
             }
 
             m_Setting = new Setting(this);
@@ -33,18 +37,18 @@ namespace RegionFlagIcons
             GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(m_Setting));
             
             // Temporary, until AIL fixes this
-            var oldAilFolder = Path.Combine(_baseDirectory, "ail");
+            var oldAilFolder = Path.Combine(_modDirectory, "ail");
             if (Directory.Exists(oldAilFolder))
             {
                 Directory.Delete(oldAilFolder, true);
             }
             AssetDatabase.global.LoadSettings(nameof(RegionFlagIcons), m_Setting, new Setting(this));
-            CheckFlagStyles();
+            //CheckFlagStyles();
         }
 
         public static void CheckFlagStyles()
         {
-            var baseDir = Path.Combine(_baseDirectory, ".ail", "flags");
+            /*var baseDir = Path.Combine(_dataDirectory, ".ail", "flags");
 
             var naDir = Path.Combine(baseDir, "North American");
             string fileName = "";
@@ -61,13 +65,13 @@ namespace RegionFlagIcons
             var sourceFile = Path.Combine(naDir, fileName);
             var destFile = Path.Combine(baseDir, "North American.svg");
 
-            File.Copy(sourceFile, destFile, true);
+            File.Copy(sourceFile, destFile, true);*/
         }
 
         public static void ChangePackFlag(string folderName, string flag)
         {
-            string folderPath = Path.Combine(_baseDirectory, ".ail", folderName);
-            string flagPath = Path.Combine(_baseDirectory, ".ail", "flags", $"{flag}");
+            string folderPath = Path.Combine(_resourcesDirectory, folderName);
+            string flagPath = Path.Combine(_resourcesDirectory, "flags", $"{flag}");
             log.Info("Starting ThumbnailProcessor with flagPath: " + flagPath + " and folderPath: " + folderPath);
             
             // Change thumbnails
@@ -91,12 +95,42 @@ namespace RegionFlagIcons
         public static FileInfo[] GetFlagFiles()
         {
             List<FileInfo> names = [];
-            var dir = new DirectoryInfo(Path.Combine(_baseDirectory, ".ail", "flags"));
+            var dir = new DirectoryInfo(Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources"));
+            if (!dir.Exists)
+                return names.ToArray();
             foreach (var file in dir.GetFiles("*" + "png"))
             {
                 names.Add(file);
             }
             return names.ToArray();
+        }
+
+        private static void CopyThumbnailsFromAIL()
+        {
+            // Not used
+        }
+
+        private static void CopyThumbnailsFromRFI()
+        {
+            var source = new DirectoryInfo(Path.Combine(_modDirectory, "Resources"));
+            var target = new DirectoryInfo(Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources"));
+            CopyRecursively(source, target);
+        }
+        
+        private static void CopyRecursively(DirectoryInfo source, DirectoryInfo target)
+        {
+            if (!target.Exists)
+                target.Create();
+            foreach (DirectoryInfo dir in source.GetDirectories())
+                CopyRecursively(dir, target.CreateSubdirectory(dir.Name));
+            foreach (FileInfo file in source.GetFiles())
+                file.CopyTo(Path.Combine(target.FullName, file.Name));
+        }
+        
+        public static IEnumerable<string> GetIconsRootFolders(string style) // parameter is optional
+        {
+            CopyThumbnailsFromRFI();
+            yield return Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources");
         }
     }
 }
