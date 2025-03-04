@@ -61,7 +61,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagFR = value;
-                Mod.ChangePackFlag("fr", value);
+                Mod.ChangePackFlag("FR", value);
             }
         }
         
@@ -74,11 +74,11 @@ namespace RegionFlagIcons
             set
             {
                 _flagDE = value;
-                Mod.ChangePackFlag("de", value);
+                Mod.ChangePackFlag("DE", value);
             }
         }
         
-        private string _flagUK = "UK.png";
+        private string _flagUK = "United Kingdom.png";
         [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
         [SettingsUISection(kSection, kRegionSettingsGroup)]
         public string FlagUK
@@ -87,7 +87,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagUK = value;
-                Mod.ChangePackFlag("uk", value);
+                Mod.ChangePackFlag("UK", value);
             }
         }
         
@@ -100,7 +100,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagJP = value;
-                Mod.ChangePackFlag("jp", value);
+                Mod.ChangePackFlag("JP", value);
             }
         }
         
@@ -113,7 +113,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagEE = value;
-                Mod.ChangePackFlag("ee", value);
+                Mod.ChangePackFlag("EE", value);
             }
         }
         
@@ -126,7 +126,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagCN = value;
-                Mod.ChangePackFlag("cn", value);
+                Mod.ChangePackFlag("CN", value);
             }
         }
         
@@ -139,7 +139,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagSW = value;
-                Mod.ChangePackFlag("sw", value);
+                Mod.ChangePackFlag("SW", value);
             }
         }
         
@@ -152,7 +152,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagNE = value;
-                Mod.ChangePackFlag("ne", value);
+                Mod.ChangePackFlag("NE", value);
             }
         }
         

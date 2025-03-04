@@ -66,10 +66,16 @@ namespace RegionFlagIcons
 
         public static void ChangePackFlag(string folderName, string flag)
         {
-            string folderPath = Path.Combine(_baseDirectory, ".ail", $"{folderName}_thumbnails");
+            string folderPath = Path.Combine(_baseDirectory, ".ail", folderName);
             string flagPath = Path.Combine(_baseDirectory, ".ail", "flags", $"{flag}");
             log.Info("Starting ThumbnailProcessor with flagPath: " + flagPath + " and folderPath: " + folderPath);
+            
+            // Change thumbnails
             ThumbnailProcessor.ApplyFlagToFolder(flagPath, folderPath);
+            
+            // Change pack icon
+            var targetPath = Path.Combine(folderPath, $"{folderName} Pack Filter.svg");
+            File.Copy(flagPath, targetPath, true);
         }
 
 
