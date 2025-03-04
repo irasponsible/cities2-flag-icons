@@ -12,7 +12,7 @@ namespace RegionFlagIcons
 {
     public class Mod : IMod
     {
-        public static ILog log = LogManager.GetLogger($"{nameof(RegionFlagIcons)}.{nameof(Mod)}")
+        public static ILog log = LogManager.GetLogger($"{nameof(RegionFlagIcons)}")
             .SetShowsErrorsInUI(false);
 
         private static Setting m_Setting;
@@ -43,12 +43,12 @@ namespace RegionFlagIcons
                 Directory.Delete(oldAilFolder, true);
             }
             AssetDatabase.global.LoadSettings(nameof(RegionFlagIcons), m_Setting, new Setting(this));
-            //CheckFlagStyles();
+            CheckFlagStyles();
         }
 
         public static void CheckFlagStyles()
         {
-            /*var baseDir = Path.Combine(_dataDirectory, ".ail", "flags");
+            var baseDir = Path.Combine(_resourcesDirectory, "flags");
 
             var naDir = Path.Combine(baseDir, "North American");
             string fileName = "";
@@ -65,21 +65,23 @@ namespace RegionFlagIcons
             var sourceFile = Path.Combine(naDir, fileName);
             var destFile = Path.Combine(baseDir, "North American.svg");
 
-            File.Copy(sourceFile, destFile, true);*/
+            File.Copy(sourceFile, destFile, true);
         }
 
         public static void ChangePackFlag(string folderName, string flag)
         {
             string folderPath = Path.Combine(_resourcesDirectory, folderName);
             string flagPath = Path.Combine(_resourcesDirectory, "flags", $"{flag}");
-            log.Info("Starting ThumbnailProcessor with flagPath: " + flagPath + " and folderPath: " + folderPath);
+            log.Debug("Starting ThumbnailProcessor with flagPath: " + flagPath + " and folderPath: " + folderPath);
             
             // Change thumbnails
             ThumbnailProcessor.ApplyFlagToFolder(flagPath, folderPath);
             
             // Change pack icon
+            var flagPathSvg = Path.Combine(_resourcesDirectory, "flags", $"{flag.Replace(".png", ".svg")}");
             var targetPath = Path.Combine(folderPath, $"{folderName} Pack Filter.svg");
-            File.Copy(flagPath, targetPath, true);
+            log.Debug($"Copying Pack Filter {flagPathSvg} to {targetPath}");
+            File.Copy(flagPathSvg, targetPath, true);
         }
 
 
@@ -95,7 +97,7 @@ namespace RegionFlagIcons
         public static FileInfo[] GetFlagFiles()
         {
             List<FileInfo> names = [];
-            var dir = new DirectoryInfo(Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources"));
+            var dir = new DirectoryInfo(Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources", "flags"));
             if (!dir.Exists)
                 return names.ToArray();
             foreach (var file in dir.GetFiles("*" + "png"))
@@ -114,17 +116,31 @@ namespace RegionFlagIcons
         {
             var source = new DirectoryInfo(Path.Combine(_modDirectory, "Resources"));
             var target = new DirectoryInfo(Path.Combine(EnvPath.kUserDataPath, "ModsData", "RegionFlagIcons", "Resources"));
-            CopyRecursively(source, target);
+            CopyAll(source, target);
         }
         
-        private static void CopyRecursively(DirectoryInfo source, DirectoryInfo target)
+        private static void CopyAll(DirectoryInfo directory, DirectoryInfo target)
         {
-            if (!target.Exists)
-                target.Create();
-            foreach (DirectoryInfo dir in source.GetDirectories())
-                CopyRecursively(dir, target.CreateSubdirectory(dir.Name));
-            foreach (FileInfo file in source.GetFiles())
-                file.CopyTo(Path.Combine(target.FullName, file.Name));
+            if (!directory.Exists)
+            {
+                return;
+            }
+
+            target.Create();
+
+            //Now Create all of the directories
+            foreach (var dirPath in Directory.GetDirectories(directory.FullName, "*", SearchOption.AllDirectories))
+            {
+                Directory.CreateDirectory(dirPath.Replace(directory.FullName, target.FullName));
+            }
+
+            //Copy all the files & Replaces any files with the same name
+            foreach (var newPath in Directory.GetFiles(directory.FullName, "*.*", SearchOption.AllDirectories))
+            {
+                var path = newPath.Replace(directory.FullName, target.FullName);
+                if (!File.Exists(path))
+                    File.Copy(newPath, path, false);
+            }
         }
         
         public static IEnumerable<string> GetIconsRootFolders(string style) // parameter is optional
