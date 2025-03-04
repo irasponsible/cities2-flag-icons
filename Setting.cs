@@ -143,7 +143,7 @@ namespace RegionFlagIcons
             }
         }
         
-        private string _flagNE = "New York.png";
+        private string _flagNE = "New York City.png";
         [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
         [SettingsUISection(kSection, kRegionSettingsGroup)]
         public string FlagNE
