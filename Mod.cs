@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿using System.Collections.Generic;
+using System.IO;
 using Colossal.Logging;
 using Game;
 using Game.Modding;
@@ -14,6 +15,7 @@ namespace RegionFlagIcons
 
         private static Setting m_Setting;
         private static string m_AssetPath;
+        private static string _baseDirectory;
 
         public void OnLoad(UpdateSystem updateSystem)
         {
@@ -23,6 +25,7 @@ namespace RegionFlagIcons
             {
                 log.Info($"Region Flag Icons loaded");
                 m_AssetPath = asset.path;
+                _baseDirectory = new FileInfo(m_AssetPath).Directory.FullName;
             }
 
             m_Setting = new Setting(this);
@@ -30,7 +33,7 @@ namespace RegionFlagIcons
             GameManager.instance.localizationManager.AddSource("en-US", new LocaleEN(m_Setting));
             
             // Temporary, until AIL fixes this
-            var oldAilFolder = Path.Combine(new FileInfo(m_AssetPath).Directory.FullName, "ail");
+            var oldAilFolder = Path.Combine(_baseDirectory, "ail");
             if (Directory.Exists(oldAilFolder))
             {
                 Directory.Delete(oldAilFolder, true);
@@ -39,10 +42,9 @@ namespace RegionFlagIcons
             CheckFlagStyles();
         }
 
-
         public static void CheckFlagStyles()
         {
-            var baseDir = Path.Combine(new FileInfo(m_AssetPath).Directory.FullName, ".ail", "flags");
+            var baseDir = Path.Combine(_baseDirectory, ".ail", "flags");
 
             var naDir = Path.Combine(baseDir, "North American");
             string fileName = "";
@@ -62,6 +64,21 @@ namespace RegionFlagIcons
             File.Copy(sourceFile, destFile, true);
         }
 
+        public static void ChangePackFlag(string folderName, string flag)
+        {
+            string folderPath = Path.Combine(_baseDirectory, ".ail", folderName);
+            string flagPath = Path.Combine(_baseDirectory, ".ail", "flags", $"{flag}");
+            log.Info("Starting ThumbnailProcessor with flagPath: " + flagPath + " and folderPath: " + folderPath);
+            
+            // Change thumbnails
+            ThumbnailProcessor.ApplyFlagToFolder(flagPath, folderPath);
+            
+            // Change pack icon
+            var targetPath = Path.Combine(folderPath, $"{folderName} Pack Filter.svg");
+            log.Info($"Copying pack icon from {flagPath} to {targetPath}");
+            File.Copy(flagPath.Replace(".png", ".svg"), targetPath, true);
+        }
+
 
         public void OnDispose()
         {
@@ -70,6 +87,17 @@ namespace RegionFlagIcons
                 m_Setting.UnregisterInOptionsUI();
                 m_Setting = null;
             }*/
+        }
+
+        public static FileInfo[] GetFlagFiles()
+        {
+            List<FileInfo> names = [];
+            var dir = new DirectoryInfo(Path.Combine(_baseDirectory, ".ail", "flags"));
+            foreach (var file in dir.GetFiles("*" + "png"))
+            {
+                names.Add(file);
+            }
+            return names.ToArray();
         }
     }
 }

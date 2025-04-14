@@ -3,13 +3,17 @@ using Colossal.IO.AssetDatabase;
 using Game.Modding;
 using Game.Settings;
 using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO;
+using Colossal.PSI.Environment;
+using Game.UI.Widgets;
 using UnityEngine;
 
 namespace RegionFlagIcons
 {
     [FileLocation($"ModsSettings/{nameof(RegionFlagIcons)}/{nameof(RegionFlagIcons)}")]
-    [SettingsUIGroupOrder(kButtonGroup)]
-    [SettingsUIShowGroupName(kButtonGroup)]
+    [SettingsUIGroupOrder(kRegionSettingsGroup, kPackSettingsGroup)]
+    [SettingsUIShowGroupName(kRegionSettingsGroup, kPackSettingsGroup)]
     public class Setting : ModSetting
     {
         public enum FlagStyle_NA
@@ -21,17 +25,14 @@ namespace RegionFlagIcons
 
         public const string kSection = "Main";
 
-        public const string kButtonGroup = "Group";
+        public const string kRegionSettingsGroup = "Region Icon Settings";
+        public const string kPackSettingsGroup = "Pack Icon Settings";
 
         public Setting(IMod mod) : base(mod)
         {
         }
 
-        [SettingsUISection(kSection, kButtonGroup)]
-        public FlagStyle_NA NorthAmericanFlagStyle
-        { get; set; } = FlagStyle_NA.USA;
-
-        [SettingsUISection(kSection, kButtonGroup)]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
         public bool ApplyChanges
         {
             set
@@ -40,7 +41,142 @@ namespace RegionFlagIcons
                 Application.Quit();
             }
         }
+        
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public FlagStyle_NA NorthAmericanFlagStyle
+        { get; set; } = FlagStyle_NA.USA;
+        
+        
+        
+        [SettingsUIMultilineText]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string RestartGameText => string.Empty;
 
+        private string _flagFR = "France.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagFR
+        {
+            get => _flagFR;
+            set
+            {
+                _flagFR = value;
+                Mod.ChangePackFlag("FR", value);
+            }
+        }
+        
+        private string _flagDE = "Germany.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagDE
+        {
+            get => _flagDE;
+            set
+            {
+                _flagDE = value;
+                Mod.ChangePackFlag("DE", value);
+            }
+        }
+        
+        private string _flagUK = "United Kingdom.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagUK
+        {
+            get => _flagUK;
+            set
+            {
+                _flagUK = value;
+                Mod.ChangePackFlag("UK", value);
+            }
+        }
+        
+        private string _flagJP = "Japan.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagJP
+        {
+            get => _flagJP;
+            set
+            {
+                _flagJP = value;
+                Mod.ChangePackFlag("JP", value);
+            }
+        }
+        
+        private string _flagEE = "Ukraine.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagEE
+        {
+            get => _flagEE;
+            set
+            {
+                _flagEE = value;
+                Mod.ChangePackFlag("EE", value);
+            }
+        }
+        
+        private string _flagCN = "China.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagCN
+        {
+            get => _flagCN;
+            set
+            {
+                _flagCN = value;
+                Mod.ChangePackFlag("CN", value);
+            }
+        }
+        
+        private string _flagSW = "Arizona.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagSW
+        {
+            get => _flagSW;
+            set
+            {
+                _flagSW = value;
+                Mod.ChangePackFlag("SW", value);
+            }
+        }
+        
+        private string _flagNE = "New York City.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagNE
+        {
+            get => _flagNE;
+            set
+            {
+                _flagNE = value;
+                Mod.ChangePackFlag("NE", value);
+            }
+        }
+        
+        
+        
+        
+
+        public DropdownItem<string>[] GetFlagDropdownItems()
+        {
+            var names = Mod.GetFlagFiles();
+
+            List<DropdownItem<string>> items = new List<DropdownItem<string>>();
+            foreach(var s in names)
+            {
+                items.Add(new DropdownItem<string>()
+                {
+                    value = s.Name,
+                    displayName = s.Name.Replace(".png", ""),
+                });
+            }
+
+            return items.ToArray();
+        }
+        
         public override void SetDefaults()
         {
             NorthAmericanFlagStyle = FlagStyle_NA.USA;
@@ -64,7 +200,8 @@ namespace RegionFlagIcons
                 { m_Setting.GetSettingsLocaleID(), "Region Flag Icons" },
                 { m_Setting.GetOptionTabLocaleID(Setting.kSection), "Main" },
 
-                { m_Setting.GetOptionGroupLocaleID(Setting.kButtonGroup), "Settings" },
+                { m_Setting.GetOptionGroupLocaleID(Setting.kRegionSettingsGroup), "Region Icon Settings" },
+                { m_Setting.GetOptionGroupLocaleID(Setting.kPackSettingsGroup), "Asset Pack Icon Settings" },
 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.NorthAmericanFlagStyle)), "North American Flag Style" },
                 {
@@ -84,6 +221,60 @@ namespace RegionFlagIcons
                     m_Setting.GetOptionWarningLocaleID(nameof(Setting.ApplyChanges)),
                     "Game will be closed?"
                 },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.RestartGameText)), "All changes to the flags require a game restart to work" },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagFR)), "FR Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagFR)),
+                    $"Change the icon used for French Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagDE)), "DE Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagDE)),
+                    $"Change the icon used for German Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagUK)), "UK Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagUK)),
+                    $"Change the icon used for UK Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagJP)), "JP Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagJP)),
+                    $"Change the icon used for Japan Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagEE)), "EE Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagEE)),
+                    $"Change the icon used for Eastern Europe Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagCN)), "CN Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagCN)),
+                    $"Change the icon used for China Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagSW)), "USSW Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagSW)),
+                    $"Change the icon used for US South West Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagNE)), "USNE Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagNE)),
+                    $"Change the icon used for US North East Region Pack"
+                },
+                
+
+                
+                
             };
         }
 
