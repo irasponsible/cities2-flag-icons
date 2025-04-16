@@ -31,6 +31,15 @@ namespace RegionFlagIcons
         public Setting(IMod mod) : base(mod)
         {
         }
+        
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public bool ResetToDefault
+        {
+            set
+            {
+                SetDefaults();
+            }
+        }
 
         [SettingsUISection(kSection, kRegionSettingsGroup)]
         public bool ApplyChanges
@@ -130,7 +139,7 @@ namespace RegionFlagIcons
             }
         }
         
-        private string _flagSW = "Arizona.png";
+        private string _flagSW = "California.png";
         [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
         [SettingsUISection(kSection, kRegionSettingsGroup)]
         public string FlagSW
@@ -180,6 +189,14 @@ namespace RegionFlagIcons
         public override void SetDefaults()
         {
             NorthAmericanFlagStyle = FlagStyle_NA.USA;
+            FlagFR = "France.png";
+            FlagDE = "Germany.png";
+            FlagUK = "United Kingdom.png";
+            FlagJP = "Japan.png";
+            FlagEE = "Ukraine.png";
+            FlagCN = "China.png";
+            FlagSW = "California.png";
+            FlagNE = "New York City.png";
         }
     }
 
@@ -220,6 +237,12 @@ namespace RegionFlagIcons
                 {
                     m_Setting.GetOptionWarningLocaleID(nameof(Setting.ApplyChanges)),
                     "Game will be closed?"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.ResetToDefault)), "Reset Flags to Default" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.ResetToDefault)),
+                    $"Resets all flags to default values. Requires a game restart to take effect."
                 },
                 
                 { m_Setting.GetOptionLabelLocaleID(nameof(Setting.RestartGameText)), "All changes to the flags require a game restart to work" },
