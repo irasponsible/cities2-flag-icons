@@ -12,10 +12,10 @@ namespace RegionFlagIcons
 
         public static void Main()
         {
-            //string flagPath = @"C:\Users\Konsi\Documents\CS2-Modding\CS2-Region-Flag-Icons\.ail\flags\Arizona.png";
+            string flagPath = @"C:\Users\Konsi\RiderProjects\cities2-flag-icons\.ail\flags\Netherlands.png";
             //string[] imagePaths = { @"C:\Users\Konsi\Documents\CS2-Modding\CS2-Region-Flag-Icons\.ail\ee_thumbnails\EE Commercial Low.png" };
-            //string folderPath = @"C:\Users\Konsi\Documents\CS2-Modding\CS2-Region-Flag-Icons\.ail\ee_thumbnails";
-            //ApplyFlagToFolder(flagPath, folderPath);
+            string folderPath = @"C:\Users\Konsi\RiderProjects\cities2-flag-icons\.ail\NL";
+            ApplyFlagToFolder(flagPath, folderPath);
         }
 
         public static void ApplyFlagToFolder(string flagPath, string folderPath, string extension = ".png")

@@ -165,8 +165,18 @@ namespace RegionFlagIcons
             }
         }
         
-        
-        
+        private string _flagNL = "Netherlands.png";
+        [SettingsUIDropdown(typeof(Setting), nameof(GetFlagDropdownItems))]
+        [SettingsUISection(kSection, kRegionSettingsGroup)]
+        public string FlagNL
+        {
+            get => _flagNL;
+            set
+            {
+                _flagNL = value;
+                Mod.ChangePackFlag("NL", value);
+            }
+        }
         
 
         public DropdownItem<string>[] GetFlagDropdownItems()
@@ -293,6 +303,12 @@ namespace RegionFlagIcons
                 {
                     m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagNE)),
                     $"Change the icon used for US North East Region Pack"
+                },
+                
+                { m_Setting.GetOptionLabelLocaleID(nameof(Setting.FlagNL)), "NL Pack Flag" },
+                {
+                    m_Setting.GetOptionDescLocaleID(nameof(Setting.FlagNL)),
+                    $"Change the icon used for Netherlands Region Pack"
                 },
                 
 
