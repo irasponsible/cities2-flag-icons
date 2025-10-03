@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+     width="40"
+     height="40"
+     viewBox="0 0 40 40"
+     version="1.1"
+     id="svg1"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:svg="http://www.w3.org/2000/svg">
+    <defs
+         id="defs1">
+        <clipPath
+             id="clip-European">
+            <rect
+                 width="40"
+                 height="40"
+                 id="rect1"
+                 x="0"
+                 y="0" />
+        </clipPath>
+    </defs>
+    <g
+         id="European"
+         clip-path="url(#clip-European)"
+         transform="rotate(-90,20,20)"
+         style="fill:#c01c28">
+        <g
+             id="European-2"
+             data-name="European"
+             transform="translate(4,4)"
+             style="fill:#c01c28">
+            <rect
+                 id="Rectangle_4426"
+                 data-name="Rectangle 4426"
+                 width="32"
+                 height="32"
+                 rx="4"
+                 fill="#039"
+                 style="fill:#c01c28;fill-opacity:1"
+                 ry="4"
+                 x="0"
+                 y="0" />
+        </g>
+    </g>
+    <rect
+         style="fill:#000000;fill-opacity:1;stroke:#241f31;stroke-width:0;stroke-linecap:round"
+         id="rect4"
+         width="11"
+         height="32"
+         x="-25.5"
+         y="4"
+         transform="rotate(-90)" />
+    <path
+         id="rect2"
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.999999"
+         d="M 6.4644661,18.232232 8.232233,20 6.4644661,21.767768 8.232233,23.535534 10,21.767768 11.767768,23.535534 13.535534,21.767768 11.767768,20 13.535534,18.232232 11.767768,16.464466 10,18.232232 8.232233,16.464466 Z" />
+    <path
+         id="rect2-2"
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.999999"
+         d="M 16.464466,18.232232 18.232232,20 16.464466,21.767768 18.232232,23.535534 20,21.767768 21.767768,23.535534 23.535534,21.767768 21.767768,20 23.535534,18.232232 21.767768,16.464466 20,18.232232 18.232232,16.464466 Z" />
+    <path
+         id="rect2-7"
+         style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.999999"
+         d="M 26.464466,18.232232 28.232232,20 26.464466,21.767768 28.232232,23.535534 30,21.767768 31.767768,23.535534 33.535534,21.767768 31.767768,20 33.535534,18.232232 31.767768,16.464466 30,18.232232 28.232232,16.464466 Z" />
+</svg>
