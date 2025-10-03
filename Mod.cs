@@ -91,7 +91,7 @@ namespace RegionFlagIcons
 
         public static FileInfo[] GetFlagFiles()
         {
-            List<FileInfo> names = [];
+            var names = new List<FileInfo>();
             var dir = new DirectoryInfo(Path.Combine(_baseDirectory, ".ail", "flags"));
             foreach (var file in dir.GetFiles("*" + "png"))
             {

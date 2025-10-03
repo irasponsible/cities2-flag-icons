@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace RegionFlagIcons
 {
-    [FileLocation($"ModsSettings/{nameof(RegionFlagIcons)}/{nameof(RegionFlagIcons)}")]
+    [FileLocation("ModsSettings/RegionFlagIcons/RegionFlagIcons")]
     [SettingsUIGroupOrder(kRegionSettingsGroup, kPackSettingsGroup)]
     [SettingsUIShowGroupName(kRegionSettingsGroup, kPackSettingsGroup)]
     public class Setting : ModSetting
