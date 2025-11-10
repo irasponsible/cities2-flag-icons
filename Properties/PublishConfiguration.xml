@@ -51,15 +51,14 @@ Since the French, German, British, and Japanese packs were released before the v
 	<!--Link to the forum post where the mod can be discussed-->
 	<ForumLink Value="https://forum.paradoxplaza.com/forum/threads/region-flag-icons.1718385/" />
 	<!--Version of the mod-->
-	<ModVersion Value="1.6.2" />
+	<ModVersion Value="1.6.3" />
 	<!--Recommended version of the base game to use the mod-->
 	<GameVersion Value="1.3.6*" />
 	<!--Dependency for the mod, can be set multiple times-->
 	<Dependency Id="79634" />
 	<!--Change log for new version. Single line or multi line. Supports minimal markdown subset-->
 	<ChangeLog>
-- Recompiled for Patch 1.3.6f1
-- Fixed USSW and USNE flag selection
+- Fix CN Low Density icons being swapped
 	</ChangeLog>
 	<!--External link. supported types are discord, github, youtube, twitch, x, paypal, patreon, buymeacoffee, kofi, crowdin, gitlab-->
 	<ExternalLink Type="github" Url="https://github.com/irasponsible/cities2-flag-icons" />
