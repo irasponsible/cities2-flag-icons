@@ -148,7 +148,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagSW = value;
-                Mod.ChangePackFlag("SW", value);
+                Mod.ChangePackFlag("USSW", value);
             }
         }
         
@@ -161,7 +161,7 @@ namespace RegionFlagIcons
             set
             {
                 _flagNE = value;
-                Mod.ChangePackFlag("NE", value);
+                Mod.ChangePackFlag("USNE", value);
             }
         }
         
